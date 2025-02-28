@@ -1,19 +1,18 @@
 {
-    "manifest_version": 3,
-    "name": "TheoThing",
-    "version": "1.0",
-    "description": "Replaces webpage content with a random thumbnail from Theo (t3dotgg)",
-    "permissions": ["scripting", "storage"],
-    "host_permissions": ["<all_urls>"],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "run_at": "document_idle"
-      }
-    ]
-  }
-  
+  "manifest_version": 3,
+  "name": "TheoThing",
+  "version": "1.0",
+  "description": "Replaces webpage content with a random thumbnail from Theo (t3dotgg)",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
