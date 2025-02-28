@@ -42,7 +42,7 @@ function replacePage() {
           <img src="${thumbnailUrl}" alt="Random t3dotgg thumbnail" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);">
         </div>
         <p style="color: #ccc; font-family: Arial, sans-serif; margin-top: 20px;">
-          Powered by t3dotgg thumbnail randomizer - 
+          Powered by TheoThing - 
           <a href="https://youtube.com/t3dotgg" style="color: #ff4444; text-decoration: none;">
             Visit Theo's channel
           </a>
